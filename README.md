@@ -20,24 +20,30 @@ Create a snapshot of the VM.
 All changes should be made in the local repository and pushed to Git
 
 Clone (copies remote repository to local)
-`git  clone git@github.com:repo_user/repo_name.git`
+
+`git clone git@github.com:repo_user/repo_name.git`
 
 Status (show list of changes)
+
 `git status`
 
 Stage files (need to stage files or they will not commit).
+
 `git add file.md`
 
-Commit (commit updates the remote repository)
+Commit (update the remote repository)
+
 `Git commit -m “commit message here”`
 
 Push (push local changes to Git)
+
 `git push`
 
 Pull (pull remote changes from Git)
+
 `git pull`
 
-## Useful Linus Commands
+## Useful Linux Commands
 
 ```
 list files and directories.................. ls
@@ -54,4 +60,5 @@ remove or delete a file or directory........ rm
 ```
 
 Use tab to autocomplete a file name.
+
 Use the up arrow to get the previous command.
