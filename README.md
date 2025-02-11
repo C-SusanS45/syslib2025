@@ -31,7 +31,10 @@ Stage files (need to stage files or they will not commit).
 Commit (commit updates the remote repository)
 `Git commit -m “commit message here”`
 
-Pull (only needed if the remote and local repositories are out of sync)
+Push (push local changes to Git)
+`git push`
+
+Pull (pull remote changes from Git)
 `git pull`
 
 ## Useful Linus Commands
