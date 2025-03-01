@@ -39,9 +39,9 @@ Apache should run in the background at all times.  Look for the following in the
 
 ```
 Loaded - appears on second line of output
-Enabled - when the machine is started apache will be turned on automatically or "enabled on restert".
+Enabled - when the machine is started apache will be turned on automatically or "enabled on restart".
 Active (running) - means apache is running right now.
-Lines starting with dates - this is when the logs were updated last.
+Last 2 Lines starting with dates - this is when the logs were updated last.
 ```
 
 ## Browsers
@@ -70,6 +70,6 @@ Use the following to get the local IP address:
 ip a
 ```
 
-The local ip will be under `<BROADCAST,MULTICAST,UP,LOWER_UP>)`
+The local ip will be under `<BROADCAST,MULTICAST,UP,LOWER_UP>`
 
-The public or external IP address can be found in the cloud console.  Use the external IP to view the index.html from an exteral browser.
+The public or external IP address can be found in the cloud console.  Use the external IP to view index.html from an exteral browser.
