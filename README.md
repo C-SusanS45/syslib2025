@@ -13,6 +13,11 @@ sudo apt -y autoremove
 sudo apt clean
 ```
 
+Reboot command:
+```
+sudo reboot now
+```
+
 Create a snapshot of the VM.
 
 ## Updating the Remote Repository
