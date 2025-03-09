@@ -22,8 +22,8 @@ Will look like the sample below.  Look for loaded, enabled, and active (running)
 
 ```
 mysql.service - MySQL Community Server
-     Loaded: **loaded** (/lib/systemd/system/mysql.service; **enabled**; vendor preset: enabled)
-     Active: **active (running)** since Sat YYYY-MM-DD HH:MM:SS UTC; 2min 27s ago
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat YYYY-MM-DD HH:MM:SS UTC; 2min 27s ago
     Process: 1614 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
    Main PID: 1622 (mysqld)
      Status: "Server is operational"
@@ -83,6 +83,6 @@ sudo php -f /var/www/html/opac.php  (should display html only)
 ```
 
 ### NOTE
-==In a PHP file, dollar signs ($) are interpreted as variables even when inside double quotes (“).  To fix:
+== In a PHP file, dollar signs ($) are interpreted as variables even when inside double quotes (“).  To fix:
 Either surround by single quotes or escape the dollar signs ==
 
