@@ -82,7 +82,7 @@ sudo php -f /var/www/login.php     (should have no output)
 sudo php -f /var/www/html/opac.php  (should display html only)
 ```
 
-### NOTE
-==In a PHP file, dollar signs ($) are interpreted as variables even when inside double quotes (“).  To fix:
-Either surround by single quotes or escape the dollar signs==
+>[!NOTE]
+>In a PHP file, dollar signs ($) are interpreted as variables even when inside double quotes (“).  
+>To fix surround by single quotes or escape the dollar signs.
 
