@@ -82,7 +82,7 @@ Last 2 Lines starting with dates - this is when the logs were updated last.
 
 The default webpage for the new Apache server is index.html.  To customize the file, do the following:    
 
-1.  Navigate to `/var/www/html` using `cd /var/www.html/`. 
+1.  Navigate to `/var/www/html` using `cd /var/www/html/`. 
 2.  Backup the `index.html` file using `sudo mv index.html index.html.original`.
 3.  Edit the file using `sudo tilde index.html`.
 4.  Test the webpage from the VM using one of the installed web browsers.  

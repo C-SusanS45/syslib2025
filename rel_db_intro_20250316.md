@@ -87,7 +87,7 @@ The results will look something like this:
 3 rows in set (0.00 sec)
 ```
 
-You can revoke all privileges from `opacuser' using the following command:
+You can revoke all privileges from `opacuser` using the following command:
 
 ```
 revoke all privileges on DinnerDB.* from 'opacuser'@'localhost';
